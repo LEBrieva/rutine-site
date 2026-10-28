@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Rutine – Privacidad / Privacidade</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1b1b1f;--muted:#55555c;--accent:#0b5fd1;--border:#d9d9de;--ph:#fff3c4}
+@media (prefers-color-scheme:dark){:root{--bg:#121214;--fg:#ececf0;--muted:#a3a3ad;--accent:#8ab4ff;--border:#34343b;--ph:#4a3f12}}
+body{margin:0;background:var(--bg);color:var(--fg);font:1rem/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1{font-size:1.7rem;line-height:1.25}h2{font-size:1.2rem;margin-top:2rem}
+a{color:var(--accent)}p.meta{color:var(--muted)}
+table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border:1px solid var(--border);padding:.5rem;text-align:left;vertical-align:top}
+.ph{background:var(--ph);padding:0 .25rem;border-radius:.2rem}
+nav a{margin-right:1rem}
+.draft{border:1px solid var(--border);border-radius:.5rem;padding:.75rem 1rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Rutine</h1>
+<ul>
+<li><a href="es.html" hreflang="es" lang="es">Política de privacidad (Español)</a></li>
+<li><a href="pt-BR.html" hreflang="pt-BR" lang="pt-BR">Política de privacidade (Português do Brasil)</a></li>
+</ul>
+<script>
+// Pick the language by the browser setting; the links above remain for no-JS and manual choice.
+(function () {
+  var lang = (navigator.language || '').toLowerCase();
+  location.replace(lang.indexOf('pt') === 0 ? 'pt-BR.html' : 'es.html');
+})();
+</script>
+<noscript><p>Elegí un idioma / Escolha um idioma.</p></noscript>
+</main>
+</body>
+</html>
